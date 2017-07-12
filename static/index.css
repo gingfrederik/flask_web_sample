@@ -1,0 +1,50 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+.Aligner {
+    display: flex;
+    align-items: center;
+    min-height: 24em;
+    justify-content: center;
+}
+
+.Aligner-item {
+    flex: 2;
+}
+
+.navbar{
+    text-align:left;
+}
+.nav-link {
+    border-bottom: 1px solid #292b2c;
+}
+.nav-link:hover {
+    border-bottom: 1px solid #ffffff;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #292b2c;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+main {
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+}
